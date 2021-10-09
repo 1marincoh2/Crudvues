@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-community-typescript-template",
+  "description": "A boilerplate to start a Nuxt+TS project quickly",
+  "version": "2.15.8",
+  "private": true,
+  "dependencies": {
+    "@nuxtjs/composition-api": "0.29.2",
+    "axios": "^0.21.4",
+    "nuxt": "2.15.8",
+    "vue-axios": "^3.3.7"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --max-warnings 0 --ext .ts,.vue ."
+  },
+  "devDependencies": {
+    "@nuxt/types": "2.15.8",
+    "@nuxt/typescript-build": "2.1.0",
+    "@nuxtjs/eslint-config-typescript": "6.0.1",
+    "@nuxtjs/vuetify": "^1.12.1",
+    "eslint": "7.32.0",
+    "vue-cli-plugin-vuetify": "~2.4.2"
+  }
+}
